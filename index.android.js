@@ -1,0 +1,113 @@
+import React, { Component } from 'react';
+import {
+  AppRegistry,
+  StyleSheet,
+  Text, 
+  View,
+} from 'react-native';
+export default class Test extends Component {
+    constructor(props){
+        super(props);
+        this.state={
+        }
+    }
+    [  
+   {  
+      "1000",
+      "1021",
+      "500001",
+      "5-5-2017",
+      "NB",
+      "4500000123",
+      "8-5-2017",
+      "12-5-2017",
+      "1000",
+      "85674621",
+      "RW00001001",
+      "10",
+      "TO",
+      "100",
+      "100",
+      "1100",
+      "",
+      "",
+      "",
+      "",
+      "ok"
+   },
+   {  
+      "CompanyCode":"1000",
+      "PlantCode":"1031",
+      "PRNo":"500023",
+      "PRDate":"4-5-2017",
+      "PODocType":"NB",
+      "PONo":"4500000125",
+      "PODate":"10-5-2017",
+      "DaliveryDate":"15-5-2017",
+      "StoageLocation":"1200",
+      "VendorCode":"85674634",
+      "MaterialCode":"RW00001052",
+      "Qty":"5",
+      "UOM":"TO",
+      "Price":"500",
+      "TaxAmt":"50",
+      "TotalAmount":"2550",
+      "Remarks1":"",
+      "Remarks2":"",
+      "Remarks3":"",
+      "Remarks4":"",
+      "Remarks5":"ok"
+   },
+   {  
+      "CompanyCode":""
+   }
+]
+    render() {
+        var headers=["CompanyCode",
+                        "PlantCode",
+                        "PRNo",
+                        "PRDate",
+                        "PODocType",
+                        "PONo",
+                        "PODate",
+                        "DaliveryDate",
+                        "StoageLocation",
+                        "VendorCode",
+                        "MaterialCode",
+                        "Qty",
+                        "UOM",
+                        "Price",
+                        "TaxAmt",
+                        "TotalAmount",
+                        "Remarks1",
+                        "Remarks2",
+                        "Remarks3",
+                        "Remarks4",
+                        "Remarks5"];
+        var data=["1000",
+                    "1021",
+                    "500001",
+                    "5-5-2017",
+                    "NB",
+                    "4500000123",
+                    "8-5-2017",
+                    "12-5-2017",
+                    "1000",
+                    "85674621",
+                    "RW00001001",
+                    "10",
+                    "TO",
+                    "100",
+                    "100",
+                    "1100",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "ok"]
+        return (
+            <Text>Haha</Text>
+        )
+    }
+}
+AppRegistry.registerComponent('Test', () => Test);
